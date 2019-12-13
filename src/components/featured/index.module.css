@@ -1,0 +1,36 @@
+.featureWrapper {
+  width: 90%;
+  height: 420px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.heroImage{
+  width: 85%;
+}
+
+.titleWrapper {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  width:400px;
+}
+
+.blackSpeachbubble{
+  width: 59px;
+  height: 53px;
+  margin-right: 13px;
+  margin-top: 10px;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.content {
+  width: 585px;
+  padding-left: 50px;
+}

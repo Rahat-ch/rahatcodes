@@ -1,0 +1,11 @@
+.header {
+  width: 866px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  width: 350px;
+  margin: 0 auto;
+  display: inline-block;
+}
