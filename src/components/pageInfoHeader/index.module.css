@@ -1,0 +1,14 @@
+.titleWrapper {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 10px;
+  width:430px;
+  color: #FFFFFF;
+}
+
+.whiteSpeachbubble{
+  width: 59px;
+  height: 53px;
+  margin-right: 13px;
+  margin-top: 10px;
+}

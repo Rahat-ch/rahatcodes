@@ -5,7 +5,7 @@
 }
 
 .logo {
-  width: 350px;
+  max-width: 45%;
   margin: 0 auto;
   display: inline-block;
 }

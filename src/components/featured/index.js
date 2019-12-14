@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
+import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from "gatsby-image"
 import styles from './index.module.css'
 import blackSpeachbubble from "../../images/blackSpeachbubble.png"
@@ -27,7 +27,7 @@ const Featured = () => {
     }
   }
   `)
-  const { title, heroImage, subtitle, body } = data.allContentfulVideo.edges[0].node;
+  const { title, heroImage, subtitle, body, slug } = data.allContentfulVideo.edges[0].node;
   const { sizes } = heroImage;
   console.log(data.allContentfulVideo.edges[0].node)
   return (
@@ -37,14 +37,18 @@ const Featured = () => {
         <h1 className={styles.title}>Featured Episode</h1>
       </div>
       <div className={styles.contentWrapper}>
-        <Img
-          sizes={sizes}
-          className={styles.heroImage}
-        />
+        <Link to={slug} className={styles.heroImage}>
+          <Img
+            sizes={sizes}
+          />
+        </Link>
         <main className={styles.content}>
           <h2>{title}</h2>
           <h3>{subtitle}</h3>
           <p>{body.body}</p>
+          <Link to={slug} className={styles.episodeLink}>
+            Watch episode →
+          </Link>
         </main>
       </div>
     </div>

@@ -5,9 +5,7 @@ import styles from "./navbar.module.css"
 
 const navData = [
   ["Episodes", "/"],
-  ["Coming Soon", "/soon"],
-  ["About", "/about"],
-  ["Pair With Rahat", "/pair"],
+  ["About", "/about"]
 ]
 
 const navbar = () => {
@@ -31,6 +29,7 @@ const navbar = () => {
           {item[0]}
         </Link>
       ))}
+      <a href="http://twitch.tv/rahatcodes" target="_blank" rel="noopener noreferrer" className={styles.navItem}>Twitch</a>
     </nav>
   )
 }

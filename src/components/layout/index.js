@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
         <footer className={styles.footer}>
           © RahatCodes {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a className={styles.gatsbyLink} href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>
     </>

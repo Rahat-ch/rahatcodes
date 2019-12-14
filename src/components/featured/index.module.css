@@ -1,9 +1,10 @@
 .featureWrapper {
-  width: 90%;
+  width: 75%;
   height: 420px;
   background-color: #FFFFFF;
   border-radius: 12px;
   margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 .heroImage{
@@ -33,4 +34,14 @@
 .content {
   width: 585px;
   padding-left: 50px;
+}
+
+.episodeLink{
+  text-decoration: none;
+  color: #000000;
+  font-size: large;
+}
+
+.episodeLink:hover{
+  color: #5cdb95;
 }
