@@ -7,7 +7,7 @@ import Navbar from "./navbar"
 
 const Header = () => (
   <header className={styles.header}>
-    <h1>
+    <h1 className={styles.headerWrapper}>
       <Link to="/">
         <img src={HeaderLogo} alt="logo - link to home" className={styles.logo} />
       </Link>

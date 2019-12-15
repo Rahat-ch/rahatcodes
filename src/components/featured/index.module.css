@@ -1,14 +1,18 @@
 .featureWrapper {
   width: 75%;
-  height: 420px;
+  min-height: 420px;
   background-color: #FFFFFF;
   border-radius: 12px;
   margin: 0 auto;
   margin-bottom: 50px;
 }
 
+.heroImagelink{
+  width: 80%;
+}
+
 .heroImage{
-  width: 85%;
+  width: 100%;
 }
 
 .titleWrapper {
@@ -20,7 +24,6 @@
 
 .blackSpeachbubble{
   width: 59px;
-  height: 53px;
   margin-right: 13px;
   margin-top: 10px;
 }
@@ -32,8 +35,8 @@
 }
 
 .content {
-  width: 585px;
-  padding-left: 50px;
+  width: 565px;
+  padding-left: 20px;
 }
 
 .episodeLink{
@@ -44,4 +47,51 @@
 
 .episodeLink:hover{
   color: #5cdb95;
+}
+
+@media (max-width: 1024px){
+.heroImage{
+  width: 80%;
+  margin: 0 auto;
+}
+.contentWrapper{
+  display: inline;
+}
+.content{
+  padding-bottom: 20px;
+  width: 450px;
+  margin: 0 auto;
+}
+}
+
+@media (max-width: 425px){
+  .titleWrapper{
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .title{
+    font-size: medium;
+  }
+  .blackSpeachbubble{
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .content{
+    width: 290px;
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 375px){
+  .titleWrapper{
+    grid-template-columns: 25% 1fr;
+    margin-left: 5%;
+  }
+  .content {
+    width: 225px;
+  }
 }

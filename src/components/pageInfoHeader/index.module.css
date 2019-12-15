@@ -1,8 +1,12 @@
+/* .outerContainer{
+  width: 100vw;
+} */
+
 .titleWrapper {
   display: flex;
-  margin: 0 auto;
   padding-top: 10px;
-  width:430px;
+  width:25%;
+  margin: 0 auto;
   color: #FFFFFF;
 }
 
@@ -11,4 +15,28 @@
   height: 53px;
   margin-right: 13px;
   margin-top: 10px;
+}
+
+@media (max-width: 1024px){
+  .titleWrapper{
+    width: 35%;
+  }
+}
+
+@media (max-width: 768px){
+  .titleWrapper{
+    width: 50%;
+  }
+}
+
+@media (max-width: 425px){
+  .titleWrapper{
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px){
+  .titleWrapper{
+    margin-left: 10px;
+  }
 }

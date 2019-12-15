@@ -29,7 +29,7 @@ const EpisodeList = () => {
 
   return (
     <>
-      <PageInfoHeader headline="Watch more episodes" />
+      <PageInfoHeader headline="All episodes" />
       <div className={styles.videoGrid}>
         {videos.map((node) => {
           const { title, subtitle, slug, heroImage } = node.node

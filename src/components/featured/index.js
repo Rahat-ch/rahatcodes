@@ -37,9 +37,10 @@ const Featured = () => {
         <h1 className={styles.title}>Featured Episode</h1>
       </div>
       <div className={styles.contentWrapper}>
-        <Link to={slug} className={styles.heroImage}>
+        <Link to={slug} className={styles.heroImagelink}>
           <Img
             sizes={sizes}
+            className={styles.heroImage}
           />
         </Link>
         <main className={styles.content}>

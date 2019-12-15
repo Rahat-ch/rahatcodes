@@ -4,3 +4,11 @@
   margin: 0 auto;
   margin-bottom: 75px;
 }
+
+
+
+@media (max-width: 600px){
+  .aboutWrapper{
+    width: 85%;
+  }
+}
