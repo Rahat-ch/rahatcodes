@@ -1,7 +1,30 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+exports.createPages = async ({ actions, graphql, reporter }) => {
+  const result = await graphql(`
+  {
+    allContentfulVideo {
+      edges {
+        node {
+          slug
+        }
+      }
+    }
+  }
+  `)
 
-// You can delete this file if you're not using it
+  if (result.error) {
+    reporter.panic(result.error)
+    return
+  }
+
+  const videos = result.data.allContentfulVideo.edges
+
+  videos.forEach(({ node: video }) => {
+    const slug = video.slug
+
+    actions.createPage({
+      path: `/${slug}/`,
+      component: require.resolve("./src/templates/videopage/index.js"),
+      context: { slug },
+    })
+  })
+}

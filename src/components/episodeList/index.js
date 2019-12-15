@@ -8,7 +8,7 @@ import PageInfoHeader from "../pageInfoHeader"
 const EpisodeList = () => {
   const data = useStaticQuery(graphql`
     query allProjectsQuery {
-      allContentfulVideo {
+      allContentfulVideo(sort: {order: DESC, fields: createdAt}) {
         edges {
           node {
             title
