@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from "gatsby-image"
 import styles from './index.module.css'
-import blackspeachbubble from "../../images/blackspeachbubble.png"
+import blackspeachbubble from "../../images/blackSpeachbubble.png"
 
 
 const Featured = () => {

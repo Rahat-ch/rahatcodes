@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './index.module.css'
-import whitespeachbubble from "../../images/whitespeachbubble.png"
+import whitespeachbubble from "../../images/whiteSpeachbubble.png"
 
 const PageInfoHeader = ({ headline }) => (
   <div className={styles.outerContainer}>
