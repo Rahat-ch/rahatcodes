@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql, useStaticQuery, Link } from "gatsby"
 import Img from "gatsby-image"
 import styles from "./index.module.css"
-import WhiteSpeachbubble from "../../images/whiteSpeachbubble.png"
 import PageInfoHeader from "../pageInfoHeader"
 
 const EpisodeList = () => {

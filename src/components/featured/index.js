@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Img from "gatsby-image"
 import styles from './index.module.css'
-import blackSpeachbubble from "../../images/blackSpeachbubble.png"
+import blackspeachbubble from "../../images/blackspeachbubble.png"
 
 
 const Featured = () => {
@@ -33,7 +33,7 @@ const Featured = () => {
   return (
     <div className={styles.featureWrapper}>
       <div className={styles.titleWrapper}>
-        <img src={blackSpeachbubble} alt="" className={styles.blackSpeachbubble} />
+        <img src={blackspeachbubble} alt="" className={styles.blackSpeachbubble} />
         <h1 className={styles.title}>Featured Episode</h1>
       </div>
       <div className={styles.contentWrapper}>
