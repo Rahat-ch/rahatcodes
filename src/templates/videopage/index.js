@@ -12,6 +12,11 @@ export const query = graphql`
       body
     }
     link
+    heroImage {
+      fluid {
+        src
+      }
+    }
   }
   }
 `

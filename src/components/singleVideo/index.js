@@ -1,14 +1,21 @@
 import React from "react"
 import YouTube from "react-youtube"
 import styles from "./index.module.css"
+import SEO from "../seo"
 
-const SingleVideo = ({ title, subtitle, body, link }) => {
+const SingleVideo = ({ title, subtitle, body, link, heroImage }) => {
   const opts = {
     height: '390',
     width: '640',
   }
+  const socialImage = heroImage.fluid.src;
   return (
     <main className={styles.episodePage}>
+      <SEO
+        title={title}
+        description={body.body}
+        image={socialImage}
+      />
       <YouTube
         videoId={link}
         opts={opts}
