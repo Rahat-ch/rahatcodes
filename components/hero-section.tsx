@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
 import { Github, Linkedin, Twitter } from "lucide-react";
 
 export default function HeroSection() {
@@ -14,10 +13,10 @@ export default function HeroSection() {
         </p>
 
         <div className="mt-12 mb-8">
-          <p className="text-lg text-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm a developer relations engineer and full-stack developer who loves creating 
-            educational content and building web applications.
-          </p>
+                      <p className="text-lg text-foreground max-w-3xl mx-auto leading-relaxed">
+              I&apos;m a developer relations engineer and full-stack developer who loves creating 
+              educational content and building web applications.
+            </p>
         </div>
 
         <div className="flex flex-wrap justify-center gap-4">
