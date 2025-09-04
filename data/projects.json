@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "title": "Web3 DApp Tutorial Series",
+    "description": "Comprehensive tutorial series covering Solidity smart contracts, React frontend integration, and Web3 wallet connections. Includes step-by-step guides and code examples.",
+    "technologies": ["Solidity", "React", "Web3.js", "Ethers.js", "Hardhat"],
+    "githubUrl": "https://github.com/rahatcodes/web3-tutorials",
+    "liveUrl": "https://web3-tutorials.vercel.app",
+    "status": "completed",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Aptos Move Smart Contract Library",
+    "description": "A collection of reusable Move modules for common DeFi operations including token swaps, liquidity pools, and governance mechanisms.",
+    "technologies": ["Aptos Move", "Rust", "TypeScript"],
+    "githubUrl": "https://github.com/rahatcodes/aptos-move-library",
+    "status": "in-progress",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Developer Relations Dashboard",
+    "description": "Analytics dashboard for tracking developer engagement, tutorial completion rates, and community growth metrics across multiple platforms.",
+    "technologies": ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Chart.js"],
+    "githubUrl": "https://github.com/rahatcodes/devrel-dashboard",
+    "liveUrl": "https://devrel-dashboard.vercel.app",
+    "status": "completed",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Blockchain Education Platform",
+    "description": "Interactive learning platform with coding challenges, quizzes, and hands-on projects for blockchain development education.",
+    "technologies": ["React", "Node.js", "MongoDB", "Web3", "Solidity"],
+    "status": "planned",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Portfolio Website Template",
+    "description": "A clean, modern portfolio template built with Next.js and shadcn/ui. Features responsive design, dark mode support, and easy customization.",
+    "technologies": ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
+    "githubUrl": "https://github.com/rahatcodes/portfolio-template",
+    "liveUrl": "https://portfolio-template.vercel.app",
+    "status": "completed",
+    "featured": true
+  }
+]
