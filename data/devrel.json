@@ -1,0 +1,372 @@
+{
+  "livestreams": [
+    {
+      "id": "bM4q1P4YKYg",
+      "title": "Vibecoding an Etherscan Clone on Movement",
+      "url": "https://www.youtube.com/watch?v=bM4q1P4YKYg",
+      "thumbnail": "/devrel/yt-bM4q1P4YKYg.jpg",
+      "platform": "youtube",
+      "date": "2025-12-31",
+      "duration": 5660,
+      "series": "Movescan"
+    },
+    {
+      "id": "yl7IrYGQV4g",
+      "title": "Exploring Blockchain Infra on Lava Network",
+      "url": "https://www.youtube.com/watch?v=yl7IrYGQV4g",
+      "thumbnail": "/devrel/yt-yl7IrYGQV4g.jpg",
+      "platform": "youtube",
+      "date": "2024-07-31",
+      "duration": 3503,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "E5bS75K14aI",
+      "title": "Exploring Tenderly's Virtual Networks",
+      "url": "https://www.youtube.com/watch?v=E5bS75K14aI",
+      "thumbnail": "/devrel/yt-E5bS75K14aI.jpg",
+      "platform": "youtube",
+      "date": "2024-07-03",
+      "duration": 3100,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "M9_u0p-aXXw",
+      "title": "Exploring the Unification Layer with Avail",
+      "url": "https://www.youtube.com/watch?v=M9_u0p-aXXw",
+      "thumbnail": "/devrel/yt-M9_u0p-aXXw.jpg",
+      "platform": "youtube",
+      "date": "2024-06-14",
+      "duration": 2993,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "QrQchLYKVXM",
+      "title": "Exploring Move for Solidity Developers",
+      "url": "https://www.youtube.com/watch?v=QrQchLYKVXM",
+      "thumbnail": "/devrel/yt-QrQchLYKVXM.jpg",
+      "platform": "youtube",
+      "date": "2024-06-12",
+      "duration": 3445,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "kqqPr6WWQv4",
+      "title": "Exploring the Blockchain Operating System",
+      "url": "https://www.youtube.com/watch?v=kqqPr6WWQv4",
+      "thumbnail": "/devrel/yt-kqqPr6WWQv4.jpg",
+      "platform": "youtube",
+      "date": "2024-05-16",
+      "duration": 2784,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "fMUJ0SLvbZA",
+      "title": "Exploring Smart Account Modules with ModuleKit",
+      "url": "https://www.youtube.com/watch?v=fMUJ0SLvbZA",
+      "thumbnail": "/devrel/yt-fMUJ0SLvbZA.jpg",
+      "platform": "youtube",
+      "date": "2024-05-08",
+      "duration": 5061,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "ED-DtiKcvEg",
+      "title": "Exploring Blind Computation on Nillion with Rock, Paper Scissors",
+      "url": "https://www.youtube.com/watch?v=ED-DtiKcvEg",
+      "thumbnail": "/devrel/yt-ED-DtiKcvEg.jpg",
+      "platform": "youtube",
+      "date": "2024-05-02",
+      "duration": 4309,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "_-itfeAXSpM",
+      "title": "Exploring Account Abstraction with Alchemy Accountkit",
+      "url": "https://www.youtube.com/watch?v=_-itfeAXSpM",
+      "thumbnail": "/devrel/yt-_-itfeAXSpM.jpg",
+      "platform": "youtube",
+      "date": "2024-04-25",
+      "duration": 5206,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "KqKxrq4HvSo",
+      "title": "Exploring Cross chain Messages on Avalanche using Teleporter",
+      "url": "https://www.youtube.com/watch?v=KqKxrq4HvSo",
+      "thumbnail": "/devrel/yt-KqKxrq4HvSo.jpg",
+      "platform": "youtube",
+      "date": "2024-04-11",
+      "duration": 3614,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "9MMIImmpUHg",
+      "title": "AA Series: Exploring Session Keys With Biconomy",
+      "url": "https://www.youtube.com/watch?v=9MMIImmpUHg",
+      "thumbnail": "/devrel/yt-9MMIImmpUHg.jpg",
+      "platform": "youtube",
+      "date": "2024-04-04",
+      "duration": 3268,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "DsBApPysLyI",
+      "title": "Exploring Cross Chain Platforms with Axelar",
+      "url": "https://www.youtube.com/watch?v=DsBApPysLyI",
+      "thumbnail": "/devrel/yt-DsBApPysLyI.jpg",
+      "platform": "youtube",
+      "date": "2024-03-28",
+      "duration": 3907,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "VJQ4tQmVa68",
+      "title": "Exploring AO the Computer",
+      "url": "https://www.youtube.com/watch?v=VJQ4tQmVa68",
+      "thumbnail": "/devrel/yt-VJQ4tQmVa68.jpg",
+      "platform": "youtube",
+      "date": "2024-03-21",
+      "duration": 3540,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "0Szbc0zJBPk",
+      "title": "Exploring Trading Infrastructure with the Orderly SDK",
+      "url": "https://www.youtube.com/watch?v=0Szbc0zJBPk",
+      "thumbnail": "/devrel/yt-0Szbc0zJBPk.jpg",
+      "platform": "youtube",
+      "date": "2024-03-07",
+      "duration": 2686,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "LQHAF_0rmWc",
+      "title": "Exploring Distribution Pools with Superfluid",
+      "url": "https://www.youtube.com/watch?v=LQHAF_0rmWc",
+      "thumbnail": "/devrel/yt-LQHAF_0rmWc.jpg",
+      "platform": "youtube",
+      "date": "2024-02-21",
+      "duration": 3208,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "-S7hHSZfNR4",
+      "title": "Exploring Mutable References with Irys",
+      "url": "https://www.youtube.com/watch?v=-S7hHSZfNR4",
+      "thumbnail": "/devrel/yt--S7hHSZfNR4.jpg",
+      "platform": "youtube",
+      "date": "2024-02-01",
+      "duration": 2649,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "4n8yAtnwxBI",
+      "title": "Exploring Hooks on Uniswap V4",
+      "url": "https://www.youtube.com/watch?v=4n8yAtnwxBI",
+      "thumbnail": "/devrel/yt-4n8yAtnwxBI.jpg",
+      "platform": "youtube",
+      "date": "2024-01-25",
+      "duration": 3300,
+      "series": "Protocol Explorer"
+    },
+    {
+      "id": "nypU8vkVOXQ",
+      "title": "Exploring Price Feeds and Random Number With API3DAO",
+      "url": "https://www.youtube.com/watch?v=nypU8vkVOXQ",
+      "thumbnail": "/devrel/yt-nypU8vkVOXQ.jpg",
+      "platform": "youtube",
+      "date": "2024-01-17",
+      "duration": 4115,
+      "series": "Protocol Explorer"
+    }
+  ],
+  "demos": [
+    {
+      "id": "q8t7eP5GiK0",
+      "title": "I Built a Claude Code Mod Where Every Agent Gets a Squishy",
+      "url": "https://www.youtube.com/watch?v=q8t7eP5GiK0",
+      "thumbnail": "/devrel/yt-q8t7eP5GiK0.jpg",
+      "platform": "youtube",
+      "date": "2026-10-06",
+      "duration": 253
+    },
+    {
+      "id": "01BFvOKy_ro",
+      "title": "I Built an AI Call Center that Knows When to Get You a Human",
+      "url": "https://www.youtube.com/watch?v=01BFvOKy_ro",
+      "thumbnail": "/devrel/yt-01BFvOKy_ro.jpg",
+      "platform": "youtube",
+      "date": "2026-09-25",
+      "duration": 457
+    },
+    {
+      "id": "2006049357607456852",
+      "title": "Planning and Verifying with Claude Code",
+      "url": "https://x.com/Rahatcodes/status/2006049357607456852",
+      "videoUrl": "https://video.twimg.com/amplify_video/2006049033169620992/vid/avc1/1280x720/aJL3eWhMF6tUVkhn.mp4?tag=21",
+      "thumbnail": "/devrel/x-2006049357607456852.jpg",
+      "platform": "x",
+      "date": "2025-12-30",
+      "duration": 853,
+      "description": "Interview-style planning with AskUserQuestion, then letting Claude open Chrome and verify the build itself."
+    },
+    {
+      "id": "1708929255759896930",
+      "title": "Smart Accounts on Farcaster",
+      "url": "https://x.com/Rahatcodes/status/1708929255759896930",
+      "videoUrl": "https://video.twimg.com/ext_tw_video/1708928556791742464/pu/vid/avc1/1280x720/dFuiJM-FXJnmaOxq.mp4?tag=12",
+      "thumbnail": "/devrel/x-1708929255759896930.jpg",
+      "platform": "x",
+      "date": "2023-10-02",
+      "duration": 309,
+      "description": "Proof of concept of what Farcaster apps could look like with account abstraction enabled (FIP-8)."
+    },
+    {
+      "id": "1664617863733207040",
+      "title": "Account Abstraction for Uniswap",
+      "url": "https://x.com/Rahatcodes/status/1664617863733207040",
+      "videoUrl": "https://video.twimg.com/ext_tw_video/1664525697661173761/pu/vid/1280x720/Jxw_Oc0CtCD_vCrq.mp4?tag=12",
+      "thumbnail": "/devrel/x-1664617863733207040.jpg",
+      "platform": "x",
+      "date": "2023-06-02",
+      "duration": 208,
+      "description": "Social logins, fiat onboarding, gasless and batched transactions added to Uniswap with the Biconomy SDK."
+    }
+  ],
+  "workshops": [
+    {
+      "id": "o_RlThHWjqg",
+      "title": "Getting Started on Account Abstraction with the Biconomy SDK",
+      "url": "https://www.youtube.com/watch?v=o_RlThHWjqg",
+      "thumbnail": "/devrel/yt-o_RlThHWjqg.jpg",
+      "platform": "youtube",
+      "date": "2023-07-31",
+      "duration": 1276,
+      "host": "ETHGlobal"
+    },
+    {
+      "id": "BETMsaDugqw",
+      "title": "Building Issuers with the Polygon ID API",
+      "url": "https://www.youtube.com/watch?v=BETMsaDugqw",
+      "thumbnail": "/devrel/yt-BETMsaDugqw.jpg",
+      "platform": "youtube",
+      "date": "2022-12-08",
+      "duration": 1846,
+      "host": "ETHGlobal"
+    },
+    {
+      "id": "PbW7FVxuOQg",
+      "title": "On-Chain Verified Credentials with Polygon ID",
+      "url": "https://www.youtube.com/watch?v=PbW7FVxuOQg",
+      "thumbnail": "/devrel/yt-PbW7FVxuOQg.jpg",
+      "platform": "youtube",
+      "date": "2022-11-13",
+      "duration": 1696,
+      "host": "ETHGlobal"
+    },
+    {
+      "id": "UyY3QUVM5a0",
+      "title": "Improving UX in Web3",
+      "url": "https://www.youtube.com/watch?v=UyY3QUVM5a0",
+      "thumbnail": "/devrel/yt-UyY3QUVM5a0.jpg",
+      "platform": "youtube",
+      "date": "2022-09-08",
+      "duration": 1764,
+      "host": "ETHGlobal"
+    },
+    {
+      "id": "Jt7Gn2T-Mdc",
+      "title": "Token Gating Static Data with Web3.Storage and Polygon",
+      "url": "https://www.youtube.com/watch?v=Jt7Gn2T-Mdc",
+      "thumbnail": "/devrel/yt-Jt7Gn2T-Mdc.jpg",
+      "platform": "youtube",
+      "date": "2022-07-18",
+      "duration": 1447,
+      "host": "ETHGlobal"
+    },
+    {
+      "id": "D7oWCWNbeOs",
+      "title": "Live Code-along: Deploying SSO with an Ethereum Smart Contract",
+      "url": "https://www.youtube.com/watch?v=D7oWCWNbeOs",
+      "thumbnail": "/devrel/yt-D7oWCWNbeOs.jpg",
+      "platform": "youtube",
+      "date": "2021-10-17",
+      "duration": 4567,
+      "host": "Y Blockchain Team"
+    }
+  ],
+  "tutorials": [
+    {
+      "id": "1965560448562122969",
+      "title": "Stablecoin Contract Examples",
+      "url": "https://x.com/Rahatcodes/status/1965560448562122969",
+      "videoUrl": "https://video.twimg.com/amplify_video/1965560231359852544/vid/avc1/1280x720/R4v3LKEm3vct6evR.mp4?tag=21",
+      "thumbnail": "/devrel/x-1965560448562122969.jpg",
+      "platform": "x",
+      "date": "2025-09-09",
+      "duration": 92,
+      "description": "Building a collateralized stablecoin (mFUSD) on Movement.",
+      "links": [
+        {
+          "label": "Docs",
+          "url": "https://docs.movementnetwork.xyz/devs/tutorials/stablecoin"
+        }
+      ]
+    },
+    {
+      "id": "1958712658644902020",
+      "title": "Movement ConnectWallet Template",
+      "url": "https://x.com/Rahatcodes/status/1958712658644902020",
+      "videoUrl": "https://video.twimg.com/amplify_video/1958712257199710210/vid/avc1/1224x720/U8wtXYqLmnjnjshz.mp4?tag=21",
+      "thumbnail": "/devrel/x-1958712658644902020.jpg",
+      "platform": "x",
+      "date": "2025-08-22",
+      "duration": 85,
+      "description": "Forkable Next.js frontend for Movement contracts: shadcn connect modal, network switching, signing and sending transactions.",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Rahat-ch/Movement-Network-ConnectWallet-Template"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.movementnetwork.xyz/devs/interactonchain/wallet-adapter/useWallet/ConnectWallet"
+        }
+      ]
+    },
+    {
+      "id": "1935386363865506157",
+      "title": "Move Basics: Structs and Resources",
+      "url": "https://x.com/Rahatcodes/status/1935386363865506157",
+      "videoUrl": "https://video.twimg.com/amplify_video/1935385246167449600/vid/avc1/1280x720/jiuKZgT0Lk28n_Gc.mp4?tag=21",
+      "thumbnail": "/devrel/x-1935386363865506157.jpg",
+      "platform": "x",
+      "date": "2025-06-18",
+      "duration": 460,
+      "description": "Part 2: extending the social media profile module with structs and resources."
+    },
+    {
+      "id": "1933605273647616006",
+      "title": "Move Basics: Building a Social Profile",
+      "url": "https://x.com/Rahatcodes/status/1933605273647616006",
+      "videoUrl": "https://video.twimg.com/amplify_video/1933604961574694912/vid/avc1/1280x720/Hjuo2ePq4DdKPz-C.mp4?tag=16",
+      "thumbnail": "/devrel/x-1933605273647616006.jpg",
+      "platform": "x",
+      "date": "2025-06-13",
+      "duration": 355,
+      "description": "Part 1: Move from scratch, building a social media profile module."
+    },
+    {
+      "id": "1882845659671507139",
+      "title": "Building Agents on Movement with ElizaOS",
+      "url": "https://x.com/Rahatcodes/status/1882845659671507139",
+      "videoUrl": "https://video.twimg.com/amplify_video/1882845047948767232/vid/avc1/1280x720/W5uhz15nZXzvjH83.mp4?tag=14",
+      "thumbnail": "/devrel/x-1882845659671507139.jpg",
+      "platform": "x",
+      "date": "2025-01-24",
+      "duration": 1197,
+      "description": "How Agent Moveus was made: getting started with ElizaOS agents on Movement."
+    }
+  ]
+}

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-center md:text-left">
             <p className="text-sm text-muted-foreground">
-              © 2024 Rahat Codes. Built with Next.js and shadcn/ui.
+              © {new Date().getFullYear()} Rahat Codes. Built with Next.js and shadcn/ui.
             </p>
           </div>
           
