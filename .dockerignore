@@ -1,0 +1,25 @@
+# Installed and built inside the image.
+node_modules
+.next
+out
+build
+coverage
+*.tsbuildinfo
+
+.git
+.gitignore
+.github
+.claude
+
+# Docs and metadata that never affect the build output.
+README.md
+data/README.md
+Dockerfile
+.dockerignore
+
+# Local noise.
+.DS_Store
+.env*
+npm-debug.log*
+*.pem
+.vercel

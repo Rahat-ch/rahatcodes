@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# rahatcodes.com
 
-## Getting Started
+Personal site and DevRel portfolio. Next.js 15 (App Router), Tailwind 4, shadcn/ui.
 
-First, run the development server:
+## Develop
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open <http://localhost:3000>. The DevRel page is at `/devrel`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Content
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The DevRel page reads `data/devrel.json` (shape in `types/devrel.ts`). To add a video, add an entry to the right section and put its thumbnail in `public/devrel/`. Items are sorted newest first; livestreams are grouped by `series`. X posts need a `videoUrl` (the post's MP4 on video.twimg.com) to play in the modal.
 
-## Learn More
+Brand assets (wordmark, mark, colors) come from the `rahatcodes-brand` kit: ink `#0b0b0b`, paper `#ffffff`, green `#127a4f` on light and `#2fae74` on dark.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Coolify on the Hetzner server, behind Cloudflare, using the Dockerfile build pack:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Source: GitHub App, repo `Rahat-ch/rahatcodes`, branch `main`. Every push to `main` deploys.
+- Dockerfile: `Dockerfile` (repo root), build context the repo root
+- Exposed port: `3000`
+- Public URL: https://rahatcodes.com (and www)
 
-## Deploy on Vercel
+No environment variables are needed. `NODE_ENV`, `HOSTNAME` and `PORT` are set in the image.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The build is multi-stage on `node:24-alpine` with Next.js `output: "standalone"`: `deps` runs `npm ci` from the lockfile (cached until `package-lock.json` changes), `builder` runs `npm run build`, and `runner` copies only the standalone server, `.next/static` and `public/`, running as the non-root `node` user. The image declares a `HEALTHCHECK` on `/`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To check the image locally:
+
+```bash
+docker build -t rahatcodes .
+docker run --rm -p 3000:3000 rahatcodes
+```
