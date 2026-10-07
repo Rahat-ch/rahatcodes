@@ -19,16 +19,16 @@ Brand assets (wordmark, mark, colors) come from the `rahatcodes-brand` kit: ink 
 
 ## Deployment
 
-Coolify on the Hetzner server, behind Cloudflare, using the Dockerfile build pack:
+**Cloudflare Pages** serves rahatcodes.com and www from Cloudflare's edge. It builds from the GitHub repo `Rahat-ch/rahatcodes` on every push to `main`:
 
-- Source: repo `Rahat-ch/rahatcodes`, branch `main`, commit `HEAD`. Deploys are triggered with Redeploy in Coolify.
-- Dockerfile: `Dockerfile` (repo root), build context the repo root
-- Exposed port: `3000`
-- Public URL: https://rahatcodes.com (and www)
+- Build command: `npm run build`
+- Build output directory: `out`
+- Node version: from `.node-version`
+- Cache headers: `public/_headers`
 
-No environment variables are needed. `NODE_ENV`, `HOSTNAME` and `PORT` are set in the image.
+The site needs no environment variables. Everything else on the Hetzner server (other apps, Coolify itself) is unaffected.
 
-The site is a Next.js static export (`output: "export"`): every page is prebuilt HTML in `out/`. The image is multi-stage: `deps` runs `npm ci` (cached until `package-lock.json` changes), `builder` makes the thumbnails and runs `npm run build`, and `runner` is `nginx:alpine` serving `out/` on port 3000 with `nginx.conf`: hashed JS/CSS cached for a year, thumbnails for a week, pages for 5 minutes at the edge. The image declares a `HEALTHCHECK` on `/`.
+**Docker image (fallback).** The same static build also ships as an nginx image, which the Coolify app on the Hetzner server builds with the Dockerfile build pack (port 3000). The image is multi-stage: `deps` runs `npm ci` (cached until `package-lock.json` changes), `builder` makes the thumbnails and runs `npm run build`, and `runner` is `nginx:alpine` serving `out/` with `nginx.conf`: hashed JS/CSS cached for a year, thumbnails for a week, pages for 5 minutes at the edge. The image declares a `HEALTHCHECK` on `/`.
 
 To check the image locally:
 

@@ -1,0 +1,6 @@
+# Cache headers for Cloudflare Pages (nginx.conf does the same for the Docker image).
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/devrel/*
+  Cache-Control: public, max-age=604800
