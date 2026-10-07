@@ -3,6 +3,7 @@
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 import { ArrowUpRight, X } from "lucide-react";
 import { DevrelItem } from "@/types/devrel";
+import { thumbSrc } from "@/lib/devrel";
 
 const PlayerContext = createContext<(item: DevrelItem) => void>(() => {});
 
@@ -84,7 +85,7 @@ function PlayerBody({ item, onClose }: { item: DevrelItem; onClose: () => void }
         ) : (
           <video
             src={item.videoUrl}
-            poster={item.thumbnail}
+            poster={thumbSrc(item)}
             controls
             autoPlay
             playsInline

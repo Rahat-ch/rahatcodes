@@ -11,6 +11,7 @@ export interface DevrelItem {
   url: string;
   /** Direct MP4 for X posts, played in the modal. */
   videoUrl?: string;
+  /** Source image file in assets/devrel/; scripts/thumbs.mjs makes the WebP sizes. */
   thumbnail: string;
   platform: Platform;
   date: string;

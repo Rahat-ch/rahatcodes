@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "thumbs": "node scripts/thumbs.mjs",
+    "predev": "node scripts/thumbs.mjs",
     "dev": "next dev --turbopack",
+    "prebuild": "node scripts/thumbs.mjs",
     "build": "next build --turbopack",
-    "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {

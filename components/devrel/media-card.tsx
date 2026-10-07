@@ -1,8 +1,8 @@
-import Image from "next/image";
 import { ArrowUpRight, Play } from "lucide-react";
 import { PlayTrigger } from "@/components/devrel/player";
 import { DevrelItem } from "@/types/devrel";
 import { cn } from "@/lib/utils";
+import { thumbSrc, thumbSrcSet } from "@/lib/devrel";
 
 const PLATFORM_LABEL = { youtube: "YouTube", x: "X" } as const;
 
@@ -45,13 +45,19 @@ export default function MediaCard({
         aria-hidden
         className="relative block aspect-video overflow-hidden rounded-md bg-muted ring-1 ring-border"
       >
-        <Image
-          src={item.thumbnail}
-          alt=""
-          fill
-          priority={priority}
+        {/* Pre-sized static WebP from scripts/thumbs.mjs; the site is a static export, so no next/image. */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={thumbSrc(item)}
+          srcSet={thumbSrcSet(item)}
           sizes={featured ? "(min-width: 640px) 50vw, 136px" : "(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 136px"}
-          className="object-cover transition-transform duration-300 group-hover:scale-[1.03]"
+          alt=""
+          width={960}
+          height={540}
+          loading={priority ? "eager" : "lazy"}
+          fetchPriority={priority ? "high" : "auto"}
+          decoding="async"
+          className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
         />
         <span className="absolute inset-0 flex items-center justify-center bg-black/0 transition-colors group-hover:bg-black/30">
           <span className="flex h-11 w-11 items-center justify-center rounded-full bg-black/70 text-white opacity-0 transition-opacity group-hover:opacity-100">

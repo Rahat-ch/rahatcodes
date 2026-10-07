@@ -5,6 +5,8 @@ out
 build
 coverage
 *.tsbuildinfo
+# Regenerated from assets/devrel by the prebuild step.
+public/devrel
 
 .git
 .gitignore
