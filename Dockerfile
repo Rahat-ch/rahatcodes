@@ -11,7 +11,9 @@ ARG NODE_IMAGE=node:24-alpine
 FROM ${NODE_IMAGE} AS deps
 WORKDIR /app
 COPY package.json package-lock.json ./
-RUN npm ci --no-audit --no-fund
+# --include=dev: Coolify passes NODE_ENV=production as a build arg, which would
+# otherwise skip the TypeScript and Tailwind packages the build needs.
+RUN npm ci --include=dev --no-audit --no-fund
 
 # --- builder: produce .next/standalone ---------------------------------------
 FROM ${NODE_IMAGE} AS builder
