@@ -38,6 +38,19 @@ function groupBySeries(items: DevrelItem[]) {
   return [...groups].map(([name, items]) => ({ name, items: items.sort(byNewest) }));
 }
 
+// Newest first, except a multi-part series stays together in part order, placed by its newest part.
+function sortForGrid(items: DevrelItem[]) {
+  const groups = new Map<string, DevrelItem[]>();
+  for (const item of items) {
+    const key = item.series ?? item.id;
+    groups.set(key, [...(groups.get(key) ?? []), item]);
+  }
+  return [...groups.values()]
+    .map((group) => group.sort((a, b) => a.date.localeCompare(b.date)))
+    .sort((a, b) => b[b.length - 1].date.localeCompare(a[a.length - 1].date))
+    .flat();
+}
+
 function Grid({ items, priorityCount = 0 }: { items: DevrelItem[]; priorityCount?: number }) {
   return (
     <div className="grid gap-5 sm:grid-cols-2 sm:gap-x-6 sm:gap-y-10 lg:grid-cols-3">
@@ -121,7 +134,7 @@ export default function DevrelPage() {
                   ))}
                 </div>
               ) : (
-                <Grid items={[...data[section.id]].sort(byNewest)} priorityCount={i === 0 ? 3 : 0} />
+                <Grid items={sortForGrid(data[section.id])} priorityCount={i === 0 ? 3 : 0} />
               )}
             </section>
           ))}

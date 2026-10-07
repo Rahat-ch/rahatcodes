@@ -224,14 +224,104 @@
     },
     {
       "id": "1664617863733207040",
-      "title": "Account Abstraction for Uniswap",
+      "title": "Account Abstraction for Uniswap, Part 1",
       "url": "https://x.com/Rahatcodes/status/1664617863733207040",
       "videoUrl": "https://video.twimg.com/ext_tw_video/1664525697661173761/pu/vid/1280x720/Jxw_Oc0CtCD_vCrq.mp4?tag=12",
       "thumbnail": "/devrel/x-1664617863733207040.jpg",
       "platform": "x",
       "date": "2023-06-02",
       "duration": 208,
-      "description": "Social logins, fiat onboarding, gasless and batched transactions added to Uniswap with the Biconomy SDK."
+      "description": "Social logins, fiat onboarding, gasless and batched transactions added to Uniswap with the Biconomy SDK.",
+      "series": "Account Abstraction for Uniswap"
+    },
+    {
+      "id": "2105862774718968176",
+      "title": "Recreating My Job Pipeline in n8n",
+      "url": "https://x.com/Rahatcodes/status/2105862774718968176",
+      "videoUrl": "https://video.twimg.com/amplify_video/2105862590479958016/vid/avc1/872x720/O8fYOss-tg4mWSGO.mp4?tag=29",
+      "thumbnail": "/devrel/x-2105862774718968176.jpg",
+      "platform": "x",
+      "date": "2026-10-02",
+      "duration": 476,
+      "description": "Late-night experiment rebuilding my Hermes job-search pipeline with n8n.",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Rahat-ch/jobsearchautomations"
+        }
+      ]
+    },
+    {
+      "id": "2017004143630561349",
+      "title": "memU-lite: Browser-Only Agent Memory",
+      "url": "https://x.com/Rahatcodes/status/2017004143630561349",
+      "videoUrl": "https://video.twimg.com/amplify_video/2017004019462320128/vid/avc1/1280x720/aYgnWVcHRD5muxih.mp4?tag=21",
+      "thumbnail": "/devrel/x-2017004143630561349.jpg",
+      "platform": "x",
+      "date": "2026-01-29",
+      "duration": 44,
+      "description": "A tiny agent-memory notes app with semantic search that runs entirely in the browser. No server, no database, no API keys.",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Rahat-ch/discovery-mvp-memu-lite-20260129"
+        }
+      ]
+    },
+    {
+      "id": "1996356733783220538",
+      "title": "Full Stack Move Workshop App",
+      "url": "https://x.com/Rahatcodes/status/1996356733783220538",
+      "videoUrl": "https://video.twimg.com/amplify_video/1996355456227225601/vid/avc1/1280x720/azY4_YtZYc4HDW4o.mp4?tag=21",
+      "thumbnail": "/devrel/x-1996356733783220538.jpg",
+      "platform": "x",
+      "date": "2025-12-03",
+      "duration": 112,
+      "description": "The app from Part 2 of the Full Stack Move workshop, with an old frontend redesigned using Replit Design."
+    },
+    {
+      "id": "1910104291836391893",
+      "title": "Vibe-Coded Asteroids on Movement",
+      "url": "https://x.com/Rahatcodes/status/1910104291836391893",
+      "videoUrl": "https://video.twimg.com/ext_tw_video/1910104054958878720/pu/vid/avc1/1280x720/DobhgQeAam7fN32W.mp4?tag=12",
+      "thumbnail": "/devrel/x-1910104291836391893.jpg",
+      "platform": "x",
+      "date": "2025-04-09",
+      "duration": 30,
+      "description": "An Asteroids game in Next.js with Tomo embedded wallets and its Move module deployed to Movement mainnet."
+    },
+    {
+      "id": "1958712658644902020",
+      "title": "Movement ConnectWallet Template",
+      "url": "https://x.com/Rahatcodes/status/1958712658644902020",
+      "videoUrl": "https://video.twimg.com/amplify_video/1958712257199710210/vid/avc1/1224x720/U8wtXYqLmnjnjshz.mp4?tag=21",
+      "thumbnail": "/devrel/x-1958712658644902020.jpg",
+      "platform": "x",
+      "date": "2025-08-22",
+      "duration": 85,
+      "description": "Forkable Next.js frontend for Movement contracts: shadcn connect modal, network switching, signing and sending transactions.",
+      "links": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/Rahat-ch/Movement-Network-ConnectWallet-Template"
+        },
+        {
+          "label": "Docs",
+          "url": "https://docs.movementnetwork.xyz/devs/interactonchain/wallet-adapter/useWallet/ConnectWallet"
+        }
+      ]
+    },
+    {
+      "id": "1715099396952428922",
+      "title": "Account Abstraction for Uniswap, Part 2",
+      "url": "https://x.com/Rahatcodes/status/1715099396952428922",
+      "videoUrl": "https://video.twimg.com/ext_tw_video/1715097785253421056/pu/vid/avc1/1280x720/sSgI59nO7-T9cUGe.mp4?tag=12",
+      "thumbnail": "/devrel/x-1715099396952428922.jpg",
+      "platform": "x",
+      "date": "2023-10-19",
+      "duration": 215,
+      "series": "Account Abstraction for Uniswap",
+      "description": "The same Uniswap demo with every transaction's gas paid in USDC, using the Biconomy Paymaster."
     }
   ],
   "workshops": [
@@ -294,6 +384,23 @@
       "date": "2021-10-17",
       "duration": 4567,
       "host": "Y Blockchain Team"
+    },
+    {
+      "id": "XeKgfaTucmw",
+      "title": "Getting Started with Account Abstraction",
+      "url": "https://www.youtube.com/watch?v=XeKgfaTucmw",
+      "thumbnail": "/devrel/yt-XeKgfaTucmw.jpg",
+      "platform": "youtube",
+      "date": "2024-03-31",
+      "duration": 3985,
+      "host": "Web3 Afrika",
+      "description": "An intro to account abstraction and building with ZeroDev, for the Web3 Afrika community.",
+      "links": [
+        {
+          "label": "Clip on X",
+          "url": "https://x.com/Rahatcodes/status/1774900062654521545"
+        }
+      ]
     }
   ],
   "tutorials": [
@@ -311,27 +418,6 @@
         {
           "label": "Docs",
           "url": "https://docs.movementnetwork.xyz/devs/tutorials/stablecoin"
-        }
-      ]
-    },
-    {
-      "id": "1958712658644902020",
-      "title": "Movement ConnectWallet Template",
-      "url": "https://x.com/Rahatcodes/status/1958712658644902020",
-      "videoUrl": "https://video.twimg.com/amplify_video/1958712257199710210/vid/avc1/1224x720/U8wtXYqLmnjnjshz.mp4?tag=21",
-      "thumbnail": "/devrel/x-1958712658644902020.jpg",
-      "platform": "x",
-      "date": "2025-08-22",
-      "duration": 85,
-      "description": "Forkable Next.js frontend for Movement contracts: shadcn connect modal, network switching, signing and sending transactions.",
-      "links": [
-        {
-          "label": "GitHub",
-          "url": "https://github.com/Rahat-ch/Movement-Network-ConnectWallet-Template"
-        },
-        {
-          "label": "Docs",
-          "url": "https://docs.movementnetwork.xyz/devs/interactonchain/wallet-adapter/useWallet/ConnectWallet"
         }
       ]
     },
